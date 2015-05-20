@@ -54,6 +54,7 @@
 #  if !defined(LIBC6) 
 #   include <linux/time.h> 	 /* You will need this for libc5-Systems */
 #  endif
+#include <string.h>
 # endif
 # if defined(AIX)
 #  include <sys/tape.h>
